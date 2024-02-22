@@ -9,8 +9,8 @@ This Django project is a simple learning platform where users can enroll in cour
      ```
   2. Create a virtual environment:
      ```bash
-    cd django-learning-platform
-    python3 -m venv venv
+      cd django-learning-platform
+      python3 -m venv venv
      ```
   3. Activate the virtual environment:
      - On Windows:
