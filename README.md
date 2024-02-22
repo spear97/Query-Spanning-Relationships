@@ -96,12 +96,12 @@ This Django project is a simple learning platform where users can enroll in cour
   - `course`:  Foreign key to Course.
     
 ## Examples
-1. Get courses taught by Instructor 'Yan'
+1. Get courses taught by Instructor `Yan`
    ```python
    courses = Course.objects.filter(instructors__first_name='Yan')
    print(courses)
    ```
-2. Get all learners for the course 'Introduction to Python'
+2. Get all learners for the course `Introduction to Python`
    ```python
    course = Course.objects.get(name='Introduction to Python')
    learners = course.learners.all()
